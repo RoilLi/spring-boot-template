@@ -6,10 +6,10 @@
     <parent>
         <artifactId>spring-boot-template</artifactId>
         <groupId>com.example</groupId>
-        <version>0.0.1</version>
+        <version>${revision}</version>
     </parent>
     <artifactId>api</artifactId>
-    <version>0.0.1</version>
+    <version>${template.api.version}</version>
     <name>demo-api</name>
     <packaging>war</packaging>
     <description>Api for demo project</description>

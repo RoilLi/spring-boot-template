@@ -6,10 +6,10 @@
     <parent>
         <artifactId>spring-boot-template</artifactId>
         <groupId>com.example</groupId>
-        <version>0.0.1</version>
+        <version>${revision}</version>
     </parent>
     <artifactId>batch</artifactId>
-    <version>0.0.1</version>
+    <version>${template.batch.version}</version>
     <name>demo-batch</name>
     <description>Batch for demo project</description>
 

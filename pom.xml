@@ -10,14 +10,16 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>spring-boot-template</artifactId>
-	<version>0.0.1</version>
+	<version>${revision}</version>
 	<name>template</name>
 	<packaging>pom</packaging>
 	<description>Template project for Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>
-		<template.version>0.0.1</template.version>
+		<revision>0.0.1</revision>
+		<template.api.version>0.0.1</template.api.version>
+		<template.batch.version>0.0.1</template.batch.version>
 		<template.domain.version>0.0.1</template.domain.version>
 		<template.infrastructure.version>0.0.1</template.infrastructure.version>
 	</properties>

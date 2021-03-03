@@ -6,10 +6,10 @@
     <parent>
         <artifactId>spring-boot-template</artifactId>
         <groupId>com.example</groupId>
-        <version>0.0.1</version>
+        <version>${revision}</version>
     </parent>
     <artifactId>infrastructure</artifactId>
-    <version>0.0.1</version>
+    <version>${template.infrastructure.version}</version>
     <name>template-infrastructure</name>
     <description>Infrastructure for template project</description>
 </project>
