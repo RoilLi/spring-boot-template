@@ -9,17 +9,17 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>spring-boot-template</artifactId>
 	<version>0.0.1</version>
-	<name>demo</name>
+	<name>template</name>
 	<packaging>pom</packaging>
-	<description>Demo project for Spring Boot</description>
+	<description>Template project for Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>
-		<demo.version>0.0.1</demo.version>
-		<demo.service.version>0.0.1</demo.service.version>
-		<demo.core.version>0.0.1</demo.core.version>
+		<template.version>0.0.1</template.version>
+		<template.domain.version>0.0.1</template.domain.version>
+		<template.infrastructure.version>0.0.1</template.infrastructure.version>
 	</properties>
 
 	<dependencies>
@@ -34,13 +34,13 @@
 		<dependencies>
 			<dependency>
 				<groupId>com.example</groupId>
-				<artifactId>service</artifactId>
-				<version>${demo.service.version}</version>
+				<artifactId>domain</artifactId>
+				<version>${template.domain.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.example</groupId>
-				<artifactId>core</artifactId>
-				<version>${demo.core.version}</version>
+				<artifactId>infrastructure</artifactId>
+				<version>${template.infrastructure.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -48,7 +48,7 @@
 	<modules>
 		<module>api</module>
 		<module>batch</module>
-		<module>service</module>
-		<module>core</module>
+		<module>domain</module>
+		<module>infrastructure</module>
 	</modules>
 </project>
