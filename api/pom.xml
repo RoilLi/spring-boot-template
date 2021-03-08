@@ -10,9 +10,9 @@
     </parent>
     <artifactId>api</artifactId>
     <version>${template.api.version}</version>
-    <name>demo-api</name>
+    <name>template-api</name>
     <packaging>war</packaging>
-    <description>Api for demo project</description>
+    <description>Api for template project</description>
 
     <dependencies>
         <dependency>

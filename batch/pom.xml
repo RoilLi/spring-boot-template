@@ -10,8 +10,8 @@
     </parent>
     <artifactId>batch</artifactId>
     <version>${template.batch.version}</version>
-    <name>demo-batch</name>
-    <description>Batch for demo project</description>
+    <name>template-batch</name>
+    <description>Batch for template project</description>
 
     <dependencies>
         <dependency>

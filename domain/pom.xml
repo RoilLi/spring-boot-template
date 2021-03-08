@@ -11,7 +11,7 @@
     <artifactId>domain</artifactId>
     <version>${template.domain.version}</version>
     <name>template-domain</name>
-    <description>Service for demo project</description>
+    <description>Domain for template project</description>
 
     <dependencies>
         <dependency>
